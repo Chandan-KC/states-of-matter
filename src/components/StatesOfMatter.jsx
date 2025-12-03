@@ -35,6 +35,7 @@ const StatesOfMatter = () => {
 
   return (
     <>  
+    <div className='background'>
     <div>Temperature {temperature}</div>
     <button onClick={IncreaseTemp}>Increase Temperature</button>
     <button onClick={DecreaseTemp}>Decrease Temperature</button>
@@ -42,6 +43,7 @@ const StatesOfMatter = () => {
     <div>State: {state.state}</div>
     <img src={state.image} alt={state.state} height={50} width={50}/>
     <div>State {state.state}</div>
+    </div>
     </>
   )
 }
